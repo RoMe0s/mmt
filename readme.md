@@ -1,4 +1,6 @@
 # How to
+- $ cp .docker/.env.example .docker/.env
+- $ cp .env.example .env
 ## Project .env:
 - DB_CONNECTION=mysql
 - DB_HOST=database
