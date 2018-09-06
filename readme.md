@@ -9,10 +9,9 @@
 - DB_USERNAME=root
 - DB_PASSWORD=root
 ## How to build
-- cd .docker folder
-- $ docker-compose up -d --build
+- $ cd .docker && docker-compose up -d --build
 - $ docker exec -it php bash
-- $ composer install && npm install; php artisan migrate && npm run prod
+- $ composer install && npm install && php artisan key:generate && php artisan migrate && npm run prod
 ## How to test
 - cd .docker folder
 - $ docker exec -it php bash
